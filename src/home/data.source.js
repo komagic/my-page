@@ -204,7 +204,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-               require('../assets/images/imageCut.png'),
+               process.env.PUBLIC_URL+'./assets/images/imageCut.png',
           },
           content: { children: 'imageCutEditor抠图编辑器' },
         },
@@ -218,7 +218,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              require('../assets/images/support.jpg'),
+              process.env.PUBLIC_URL+'./assets/images/support.jpg',
           },
           content: { children: '辅助决策系统' },
         },
@@ -232,7 +232,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-            require('../assets/images/weatherchart.png'),
+            process.env.PUBLIC_URL+'./assets/images/weatherchart.png',
           },
           content: { children: 'weatherchart 天气图表加工制作系统' },
         },
@@ -246,7 +246,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-            require('../assets/images/qinghaiban.jpg'),
+            process.env.PUBLIC_URL+'./assets/images/qinghaiban.jpg',
           },
           content: { children: 'weatherchart地方版' },
         },
@@ -260,7 +260,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-            require('../assets/images/xiaofeizhe.jpeg'),
+            process.env.PUBLIC_URL+'./assets/images/xiaofeizhe.jpeg',
           
           },
           content: { children: '上海市消保委消费者端' },
@@ -275,7 +275,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-            require('../assets/images/beihufa.png'),
+            process.env.PUBLIC_URL+'./assets/images/beihufa.png',
           },
           content: { children: '北京市互联网法院调解平台' },
         },
@@ -289,7 +289,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-            require('../assets/images/xiaobaowei.jpeg'),
+            process.env.PUBLIC_URL+'./assets/images/xiaobaowei.jpeg',
           },
           content: { children: '上海消保委商家端' },
         },
