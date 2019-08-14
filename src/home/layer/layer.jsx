@@ -7,7 +7,7 @@ export default class layer extends Component {
     return (
    <div className="iframe-container">
   <iframe className="iframe-page" 
-  src={process.env.PUBLIC_URL + '/code.html'} 
+  src={process.env.PUBLIC_URL + './code.html'} 
 
   frameBorder="0" title="iframer"
   ></iframe>
