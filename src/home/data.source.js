@@ -291,7 +291,7 @@ export const Content50DataSource = {
             children:
             process.env.PUBLIC_URL+'./assets/images/xiaobaowei.jpeg',
           },
-          content: { children: '上海消保委商家端' },
+          content: { children: '上海消保委收案中心' },
         },
       },
       // {
@@ -652,7 +652,8 @@ export const Content120DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://www.angular.cn/assets/images/logos/angular/logo-nav@2x.png',
+            process.env.PUBLIC_URL+'./assets/images/angular.svg',
+          
           },
         },
       },
